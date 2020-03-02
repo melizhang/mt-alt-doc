@@ -1,11 +1,11 @@
 # 3rd Party Ecommerce Platform
 
-If you are using 3rd party E-commerce platform or SaaS like Shopify, Sirclo, and Jejualan. 
+This guide is written to cater for integration via 3rd party E-commerce platform or SaaS such as Shopify, Sirclo, and Jejualan. 
 
-We have partnered with various platfroms to make integration process as easy as possible. This page contains a list of platforms that have partnered with Midtrans, if you are using 3rd party platform and would like for us to integrate with it, please contact [support@midtrans.com](mailto:support@midtrans.com "email support")
+Refer to the list below for E-commerce platforms currently supported by Midtrans. If you are using a 3rd party platform not listed below and would like for us to integrate with it, please contact us at [support@midtrans.com](mailto:support@midtrans.com "email support").
 
-Step by step guide to integrate Snap to your platform of choice, will be explained below.
-#### Choose from any platform of your choice:
+Follow the links for a step-by-step guide to integrate SNAP to your platform of choice.
+#### Choose your platform:
 <br>
 
 <div class="my-card">
@@ -27,8 +27,8 @@ Step by step guide to integrate Snap to your platform of choice, will be explain
 Please complete the following steps in advance:
 
 1. Create an online store with Shopify (You must be in an active paid Shopify-plan in order to allow your customer to do checkout).
-2. Register to Midtrans account [here](https://account.midtrans.com/register).
-3. Complete the account registration form, or get help by contacting [Midtrans activation team](mailto:activation@midtrans.com) with __SHOPIFY - URL Name__ as a subject header and mention your registered _Midtrans Merchant ID_.
+2. Register for a Midtrans account [here](https://account.midtrans.com/register).
+3. Complete the merchant registration process by uploading the requested documents and information. If you require assistance, contact [Midtrans activation team](mailto:activation@midtrans.com) with __SHOPIFY - URL Name__ as a subject header and mention your registered _Midtrans Merchant ID_.
 
 ### Integrate Midtrans to Shopify Platform by following the steps below:
 
@@ -49,7 +49,7 @@ Please complete the following steps in advance:
 
 3. Choose __Settings - Access Keys__.
 
-	Copy Midtrans __Merchant ID__ dan __Server Key__ (Will be used for the next step).
+	Copy Midtrans __Merchant ID__ dan __Server Key__ (will be used in the next step).
 
 	![access key](./../../../asset/image/sirclo-2.png)
 
@@ -71,50 +71,50 @@ Please complete the following steps in advance:
 	__Note:__
 
 	- Leave __Enable test mode__ checkbox unchecked to allow real transaction.
-	- Check the __Enable test mode__ checkbox if you want to test transaction without actual payment (using test credentials provided by Midtrans).
+	- Check the __Enable test mode__ checkbox if you want to test transaction without making real payments (using test credentials provided by Midtrans).
 
-	Please note that __server key__ for sandbox/testing is different from production. You may obtain your Merchant ID & server key from Midtrans MAP (after logging in) from the following links:
+	Please note that __server key__ for Sandbox/Testing is different from Production's. You may obtain your Merchant ID & server key from Midtrans MAP (after logging in) from the following links:
 	
 	- For sandbox/testing: [here](https://dashboard.sandbox.midtrans.com/settings/config_info)
 	- For production/real transaction: [here](https://dashboard.midtrans.com/settings/config_info)
 
 	![shopify](./../../../asset/image/shopify-5.png)
 
-9. Done! Now your Shopify online shop is ready to use Midtrans as payment gateway. Your customer will see Online Payment as payment method on the checkout page.
+9. Done! Your Shopify online shop is now ready to accept payments via Midtrans. Your customer will see Online Payment as available payment method on the checkout page.
 
 	![shopify](./../../../asset/image/shopify-6.png)
 
-10. Midtrans Snap payment page will be displayed to the customer. Payment methods that are available for this integration is all payment methods that are available on Snap product, which is explained on [this page](https://midtrans.com/payments).
+10. Midtrans SNAP payment page will be displayed to the customer during checkout. Please note that available payment methods for Shopify integration includes all payment methods that are available on SNAP checkout, as listed on [this page](https://midtrans.com/payments).
 
 	![shopify](./../../../asset/image/shopify-7.png)
 
 <hr><br /><br />
 
 ### Available Payment Methods
-Payment methods that are available for this integration is all payment methods that are available on Snap product, which is explained on [this page](https://midtrans.com/payments).
+Available payment methods for Shopify integration includes all payment methods that are available on SNAP checkout, as listed on [this page](https://midtrans.com/payments).
 
 ### Matching Order ID Between Shopify & Midtrans
-Order ID created on Midtrans Dashboard for each transaction is based from reference auto generated by Shopify platform, to ensure uniqueness per transaction. It can be different with order id shown on Shopify platform.
+Order ID created on Midtrans Dashboard for each transaction is based on the reference auto generated by Shopify, to ensure uniqueness per transaction. Hence, Midtrans Order ID can be different from the Order ID as shown on Shopify platform.
 
-To find order on Shopify platform based on Order ID from Midtrans, first find the transaction Order ID from Midtrans Dashboard on Transactions Menu.
+To find orders on Shopify platform based on Midtrans Order ID, first retrieve the transaction Order ID from Midtrans Dashboard on Transactions Menu.
 ![shopify](./../../../asset/image/shopify-8.png)
 
 #### Via Order menu
 1. On your Shopify admin area, go to __Orders > All Orders__ menu.
-2. Use the __search__ feature, search by inputting order id from Midtrans.
+2. Use the __search__ feature, search by inputting Order ID from Midtrans.
 3. Click on the shown order.
 
 ![shopify](./../../../asset/image/shopify-9.png)
 
 #### Via General Search
 1. On your Shopify admin area, there is general __search__ bar on top of the page.
-2. Search by inputting order id from Midtrans.
+2. Search by inputting Order ID from Midtrans.
 3. Click on the shown order.
 
 ![shopify](./../../../asset/image/shopify-10.png)
 
 #### Order detail
-Inside the order found by the search result, you can see the reference number.
+Inside the order details found in the search result, you can see the reference number.
 
 ![shopify](./../../../asset/image/shopify-11.png)
 
@@ -129,8 +129,8 @@ You can also find the reference number on the exported CSV file using Shopify ex
 Please complete the following steps in advance:
 
 1. Create an online store with Sirclo.
-2. Register to Midtrans account [here](https://account.midtrans.com/register).
-3. Complete the account registration form, or get help by contacting [Midtrans activation team](mailto:activation@midtrans.com) with __SIRCLO - URL Name__ as a subject header and mention your registered _Midtrans Merchant ID_.
+2. Register for a Midtrans account [here](https://account.midtrans.com/register).
+3. Complete the merchant registration process by uploading the requested documents and information. If you require assistance, contact [Midtrans activation team](mailto:activation@midtrans.com) with __SIRCLO - URL Name__ as a subject header and mention your registered _Midtrans Merchant ID_.
 
 ### Integrate Midtrans to Sirclo Platform by following the steps below:
 
@@ -169,17 +169,17 @@ Please complete the following steps in advance:
 
 	![sirclo](./../../../asset/image/sirclo-5.png)
 
-6. Enable payment methods via Midtrans by checking / unchecking the desired payment method
+6. Enable payment methods via Midtrans by checking / unchecking the desired payment methods.
 
 > **Info:**
-> You can enable all registered payment methods at Midtrans by unchecking all payment methods.
+> You can enable all registered payment methods at Midtrans by checking the tickbox all payment methods.
 
 7. You can choose installment payment method by filling installment period in _Veritrans Installment period for [Bank Name]_. 
 
 > **Info:**
 > For installment:
-> - You need to be approved and negotiate with the Bank regarding to interest rate and installment period
-> - Please contact us at [activation@midtrans.com](mailto:activation@midtrans.com) for further inquiry.
+> - You need to be approved and have an agreement with the Bank regarding interest rate and installment period to use this feature.
+> - Please contact our Sales team at [activation@midtrans.com](mailto:activation@midtrans.com) for further assistance.
 
 8. Click **Save** or **Update**
 <hr><br><br>
@@ -189,8 +189,8 @@ Please complete the following steps in advance:
 Please complete the following steps in advance:
 
 1. Create an online store account with [Jejualan](https://jejualan.com/daftar), and choose Beta, Gamma, or Delta in order to use Midtrans service.
-2. Register to Midtrans account [here](https://account.midtrans.com/register).
-3. Complete the account registration form, or get help by contacting [Midtrans activation team](mailto:activation@midtrans.com) with __Jejualan – URL Name__ as subject header.
+2. Register for a Midtrans account [here](https://account.midtrans.com/register).
+3. Complete the merchant registration process by uploading the requested documents and information. If you require assistance, contact [Midtrans activation team](mailto:activation@midtrans.com) with __Jejualan – URL Name__ as subject header.
 
 ### Integrate Midtrans to Jejualan platform by following the steps below:
 
@@ -230,6 +230,6 @@ Please complete the following steps in advance:
 
 	![jejualan](./../../../asset/image/jejualan-3.png)
 
-> You can enable only registered payment methods. For Credit Card, 3D Secure mode is recommended.
+> You can only enable the activated payment methods. For Credit Card, 3D Secure mode is recommended.
 
 7. Click **Simpan**.
